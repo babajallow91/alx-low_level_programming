@@ -1,17 +1,16 @@
 #include <stdio.h>
 #include "main.h"
 
-
-
 /**
-* lf - prints a string
-* description, single line
-*
-* @str:void puts_half string to print
-*
-* Return: nothing
-*
-*/
+ *
+ * * puts_half - Prints half of a string
+ *
+ * *@str: string to print
+ *
+ * *Return: 0 (success)
+ *
+ * */
+
 	void puts_half(char *str)
 
 {
@@ -29,9 +28,7 @@
 /*
  *
  * int _strlen - returns the length of a string
- *
  * @s: string
- *
  * Return: the length of the given string
  *
  */
