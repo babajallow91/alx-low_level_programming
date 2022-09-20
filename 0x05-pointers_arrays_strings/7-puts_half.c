@@ -3,11 +3,11 @@
 
 /**
  *
- * * puts_half - Prints half of a string
+ * puts_half - Prints half of a string
  *
- * *@str: string to print
+ * @str: string to print
  *
- * *Return: 0 (success)
+ * Return: 0 (success)
  *
  */
 
@@ -25,10 +25,12 @@
 
 
 
-/*
+/**
  *
  * int _strlen - returns the length of a string
+ *
  * @s: string
+ *
  * Return: the length of the given string
  *
  */
