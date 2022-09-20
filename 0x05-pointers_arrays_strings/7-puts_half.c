@@ -9,7 +9,7 @@
  *
  * *Return: 0 (success)
  *
- * */
+ */
 
 	void puts_half(char *str)
 
