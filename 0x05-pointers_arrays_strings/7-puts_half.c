@@ -4,9 +4,10 @@
 
 
 /**
-*lf - prints a string
+* lf - prints a string
+* description, single line
 *
-* @str: puts_half string to print
+* @str:void puts_half string to print
 *
 * Return: nothing
 *
@@ -27,7 +28,7 @@
 
 /*
  *
- * _strlen - returns the length of a string
+ * int _strlen - returns the length of a string
  *
  * @s: string
  *
