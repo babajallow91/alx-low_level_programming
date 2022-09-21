@@ -3,6 +3,7 @@
 
 /**
  * puts_half - prints a string
+ *
  * @str: string to print
  *
  * Return: nothing
@@ -32,3 +33,4 @@ int _strlen(char *s)
 		len++;
 
 	return (len);
+}
