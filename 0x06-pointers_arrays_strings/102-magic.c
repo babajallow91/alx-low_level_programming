@@ -1,9 +1,10 @@
 #include <stdio.h>
 
+/*
+ * main to vioid
+ */
 
-
-int
-main(void)
+int main(void)
 
 {
 
