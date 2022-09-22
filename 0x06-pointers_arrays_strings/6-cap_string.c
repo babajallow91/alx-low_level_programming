@@ -1,68 +1,23 @@
-#include "main.h"
 #include <stdio.h>
 
-
-/**
- * cap_string - Capitalizes all words of a string.
- * @str: The string to be capitalized.
- *
- * Return: A pointer to the changed string.
- */
-
-
-
-char *cap_string(char *str)
-
+int main(void)
 {
+  int n;
+  int a[5];
+  int *p;
 
-	int index = 0;
-
-	while (str[index])
-
-	{
-
-		while (!(str[index] >= 'a' && str[index] <= 'z'))
-
-			index++;
-
-
-
-		if (str[index - 1] == ' ' ||
-
-		    str[index - 1] == '\t' ||
-
-		    str[index - 1] == '\n' ||
-
-		    str[index - 1] == ',' ||
-
-		    str[index - 1] == ';' ||
-
-		    str[index - 1] == '.' ||
-
-		    str[index - 1] == '!' ||
-
-		    str[index - 1] == '?' ||
-
-		    str[index - 1] == '"' ||
-
-		    str[index - 1] == '(' ||
-
-		    str[index - 1] == ')' ||
-
-		    str[index - 1] == '{' ||
-
-		    str[index - 1] == '}' ||
-
-		    index == 0)
-
-			str[index] -= 32;
-
-
-
-		index++;
-
-	}
-
-
-	return (str);
+  a[2] = 1024;
+  p = &n;
+  /*
+   * write your line of code here...
+   * Remember:
+   * - you are not allowed to use a
+   * - you are not allowed to modify p
+   * - only one statement
+   * - you are not allowed to code anything else than this line of code
+   */
+  *(p + 5) = 98;
+  /* ...so that this prints 98\n */
+  printf("a[2] = %d\n", a[2]);
+  return (0);
 }
