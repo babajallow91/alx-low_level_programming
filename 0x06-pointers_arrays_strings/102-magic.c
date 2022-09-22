@@ -1,7 +1,9 @@
 #include <stdio.h>
 
-/*
- * main to vioid
+/**
+ * Main - Entry point
+ * Description: 'the program's description'
+ * Return: Always 0 (Success)
  */
 
 int main(void)
