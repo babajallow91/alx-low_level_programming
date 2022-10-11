@@ -1,13 +1,6 @@
 ## Resources
 Read or watch:
 
-[0x0d. Structures.pdf]()
-[struct (C programming language)]() 
-[Documentation: structures]() 
-[0x0d. Typedef and structures.pdf]() 
-[typedef]() 
-[Programming in C by Stephen Kochan - Chapter 8, Working with Structures p163-189]() 
-[The Lost Art of C Structure Packing (Advanced - not mandatory)]() 
 - [0x0d. Structures.pdf](./0x0d-Structures.pdf)
 - [struct (C programming language)](https://en.wikipedia.org/wiki/Struct_(C_programming_language)) 
 - [Documentation: structures](https://github.com/holbertonschool/Betty/wiki/Documentation:-Data-structures)
@@ -17,12 +10,23 @@ Read or watch:
 -------- 
 ## Files and Descriptions
 ------
-0-object_like_macro.h - Creates a header file that defines a macro named SIZE as an abbreviation for the token 1024.
-
-1-pi.h - Creates a header file that defines a macro named PI as an abbreviation for the token 3.14159265359.
-
-2-main.c - Writes a program that prints the name of the file it was compiled from, followed by a new line.
-
-3-function_like_macro.h - Writes a function-like macro ABS(x) that computes the absolute value of a number x.
-
-4-sum.h - Write a function-like macro SUM(x, y) that computes the sum of the numbers x and y.
+0-object_like_macro.h 
+---
+| Creates a header file that defines a macro named SIZE as an abbreviation for the token 1024.
+---
+1-pi.h 
+--
+|Creates a header file that defines a macro named PI as an abbreviation for the token 3.14159265359.
+----
+2-main.c 
+----
+|Writes a program that prints the name of the file it was compiled from, followed by a new line.
+----
+3-function_like_macro.h
+----
+|Writes a function-like macro ABS(x) that computes the absolute value of a number x.
+------
+4-sum.h
+---
+|Write a function-like macro SUM(x, y) that computes the sum of the numbers x and y.
+-----
