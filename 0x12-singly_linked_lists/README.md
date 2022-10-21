@@ -1,17 +1,8 @@
-0x12. C - Singly linked lists
-=============================
-
--   By Julien Barbier
--   Ongoing project - started 10-07-2021, must end by 10-08-2021 (in about 9 hours) - you're done with 0% of tasks.
--   Checker was released at 10-07-2021 06:00 PM
--   QA review fully automated.
-
-Concepts
---------
+# Concepts
 
 *For this project, students are expected to look at this concept:*
 
--   [Data Structures](https://alx-intranet.hbtn.io/concepts/120)
+-   [Data Structures](#Data-Structures)
 
 ![](https://s3.amazonaws.com/intranet-projects-files/holbertonschool-low_level_programming/229/giphy-3.gif)
 
@@ -20,14 +11,14 @@ Resources
 
 **Read or watch**:
 
--   [Linked Lists](https://alx-intranet.hbtn.io/rltoken/joxg32-tt4lUh8Afgst8tA "Linked Lists")
--   [Google](https://alx-intranet.hbtn.io/rltoken/USaZbNdfcuIFII-K2YPsKQ "Google")
--   [Youtube](https://alx-intranet.hbtn.io/rltoken/epKUCIcoA6XaN1T3Vtr_9w "Youtube")
+-   [Linked Lists](https://www.youtube.com/watch?v=udapt4FGY20&t=130s "Linked Lists")
+-   [Google](https://www.google.com/search?q=q%3Dlinked%2Blists&sxsrf=ALiCzsZdkuhit1HA5w4FDWe6ZaIFFFYkfg%3A1666310582992&source=hp&ei=tuFRY93sOeKy8gKJ7oSQBg&iflsig=AJiK0e8AAAAAY1Hvxs3xVwBm74mwE1d1dHM_Q4ATtpZj&ved=0ahUKEwjdn4fTgvD6AhVimVwKHQk3AWIQ4dUDCAg&uact=5&oq=q%3Dlinked%2Blists&gs_lcp=Cgdnd3Mtd2l6EAM6BwgjEOoCECdQxghYxghgkBVoAXAAeACAAbcDiAG3A5IBAzQtMZgBAKABAqABAbABCg&sclient=gws-wiz "Google")
+-   [Youtube](https://www.youtube.com/results?search_query=linked+lists "Youtube")
 
 Learning Objectives
 -------------------
 
-At the end of this project, you are expected to be able to [explain to anyone](https://alx-intranet.hbtn.io/rltoken/-nidxOqh9IU1Kx0WXKHY5Q "explain to anyone"), **without the help of Google**:
+At the end of this project, you are expected to be able to [explain to anyone](# "explain to anyone"), **without the help of Google**:
 
 ### General
 
@@ -477,10 +468,11 @@ julien@ubuntu:~/0x12. Singly linked lists$
 -   File: `4-free_list.c`
 
 ### 5\. The Hare and the Tortoise
+---------
+![](https://s3.amazonaws.com/alx-intranet.hbtn.io/uploads/medias/2020/9/de3291ccf5b255fff6ce37bfde7a13f481e7ed0c.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIARDDGGGOUSBVO6H7D%2F20221020%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20221020T222353Z&X-Amz-Expires=86400&X-Amz-SignedHeaders=host&X-Amz-Signature=1cafb1fd833e26f58422ffd44b4432578d50689f3d8a086a1eca864191512129)
 
-#advanced
+-------
 
-![](https://s3.amazonaws.com/alx-intranet.hbtn.io/uploads/medias/2020/9/de3291ccf5b255fff6ce37bfde7a13f481e7ed0c.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIARDDGGGOU65GPZGY3%2F20211007%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20211007T225929Z&X-Amz-Expires=86400&X-Amz-SignedHeaders=host&X-Amz-Signature=6db4ca2afd70e3afd4f78f3b573af13c643aa2e0f5b0e416cfc610129da219ed)
 
 Write a function that prints `You're beat! and yet, you must allow,\nI bore my house upon my back!\n` before the `main` function is executed.
 
@@ -537,3 +529,26 @@ julien@ubuntu:~/$
 
 -   GitHub repository: `alx-low_level_programming`
 -   Directory: `0x12-singly_linked_lists`
+
+
+----------
+
+### Data Structures
+
+## What is a data structure?
+
+Data structures, as the term implies, are a way of structuring data in order to efficiently store, find, use, and create data, depending on the task at hand. If data is a plate of food, data structures are your utensils (algorithms would be how to effectively use those utensils in this analogy). Just as you will likely select a spoon to eat a bowl of soup rather than a knife, you will learn over time to select and properly use data structures which fit the nature of the data you are working with. When you begin learning basic data structures such as arrays and linked lists, you will start to conceptualize how data is stored, searched, and edited, and what these operations will contribute to the space/time complexity of your program at runtime (this will make more sense once you start to learn about Big O notation). As you continue to learn more complex data structures, you may notice that you need to think more abstractly and deliberately in order to properly implement them. But with patience and practice you will begin to see patterns emerge that will allow you to intuitively see which situation calls for which data structure, just as you know to pick up a spoon when you see a bowl of soup.
+
+### References:
+
+Basics (Read deep into either for explanations of common data structures):
+
+[Tutorials Point](https://www.tutorialspoint.com/data_structures_algorithms/data_structures_basics.htm "Tutorials Point")
+
+[Geeks for Geeks](https://www.geeksforgeeks.org/data-structures/ "Geeks for Geeks")
+
+How to Select the Appropriate Data Structure:
+
+[Career Drill](https://www.careerdrill.com/blog/coding-interview/choosing-the-right-data-structure-to-solve-problems/ "Career Drill")
+
+------
