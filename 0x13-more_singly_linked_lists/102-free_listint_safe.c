@@ -1,42 +1,41 @@
 #include "lists.h"
 
 /**
- * find_listint_loop - finds the loop in a linked list.
- * @head: head of a list.
- *
- * Return: the address of the node where the loop starts.
- */
-listint_t *find_listint_loop(listint_t *head)
+* free_listint_safe - thsi function free a list in safe mode
+Q* @h: the head of list
+* Description: this function free a string in a safe mode
+* section header: the header of this function is lists.h)*
+* Return: the size of the list
+*/
+
+size_t free_listint_safe(listint_t **h)
 {
-	listint_t *p2;
-	listint_t *prev;
+	listint_t *tmp, *actual;
+	size_t i;
+	int rest;
 
-	p2 = head;
-	prev = head;
-	while (head && p2 && p2->next)
+	i = 0, actual = *h;
+
+	while (actual)
 	{
-		head = head->next;
-		p2 = p2->next->next;
-
-		if (head == p2)
+		rest = actual - actual->next;
+		if (rest > 0)
 		{
-			head = prev;
-			prev =  p2;
-			while (1)
-			{
-				p2 = prev;
-				while (p2->next != head && p2->next != prev)
-				{
-					p2 = p2->next;
-				}
-				if (p2->next == head)
-					break;
-
-				head = head->next;
-			}
-			return (p2->next);
+			tmp = actual->next;
+			free(actual);
+			actual = tmp;
+			i++;
+		} else
+		{
+			free(actual);
+			*h = NULL;
+			i++;
+			break;
 		}
+
 	}
 
-	return (NULL);
+	*h = NULL;
+
+	return (i);
 }
